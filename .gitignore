@@ -23,8 +23,8 @@ node_modules/
 *.css
 *.js
 *.html
-*.png
-*.jpg
+# *.png
+# *.jpg
 *.gif
 *.svg
 *.pdf
