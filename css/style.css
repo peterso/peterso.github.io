@@ -151,6 +151,9 @@ textarea {
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
+  .btn--sm {
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem; }
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
@@ -277,7 +280,7 @@ textarea {
 
 .projects__row {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem; }
   @media only screen and (max-width: 56.25em) {
@@ -294,6 +297,7 @@ textarea {
     overflow: hidden; }
   .projects__row-img {
     width: 100%;
+    /* height: auto; */
     display: block;
     object-fit: cover; }
   .projects__row-content {
@@ -324,7 +328,7 @@ textarea {
 
 .research__row {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 0.35fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem; }
   @media only screen and (max-width: 56.25em) {
